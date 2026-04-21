@@ -12,11 +12,10 @@ presenting full-screen or automatic modals, and presenting configurable sheets.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = 'Song'
   s.source           = { :git => 'https://github.com/fallpine/QSPageRouter.git', :tag => s.version.to_s }
-
   s.platform         = :ios, '16.0'
   s.swift_versions   = ['5.0']
   s.requires_arc     = true
 
-  s.source_files     = 'QSPageRouter/Router/**/*.{swift}'
+  s.source_files     = 'QSPageRouter/QSPageRouter/Router/*.{swift}'
   s.frameworks       = 'UIKit'
 end
